@@ -1,0 +1,47 @@
+name: Bug 反馈
+description: 功能异常、崩溃或界面问题。
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请先搜索已有问题，截图或报告请脱敏；不要提交密码、令牌、聊天记录或备份包。
+  - type: input
+    id: nova_version
+    attributes:
+      label: Nova 版本
+      placeholder: 例如 0.1.23（24）
+    validations:
+      required: true
+  - type: input
+    id: host_version
+    attributes:
+      label: 宿主名称、包名与版本
+      placeholder: 例如 微信 / com.tencent.mm / 版本号及 versionCode；模块自身问题填写 Nova
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Android、设备型号与 Xposed 框架版本
+      placeholder: Android 版本 / 设备型号 / LSPosed 或所用框架的版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤与相关功能开关
+      description: 写清从哪个页面、开启哪些选项、执行哪些操作，以及出现频率。
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 预期效果与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 脱敏截图或适配报告（可选）
+      description: 仅提供与此问题直接相关且已移除私人信息的材料。

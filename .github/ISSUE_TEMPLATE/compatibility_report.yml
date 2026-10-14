@@ -1,0 +1,36 @@
+name: 宿主适配反馈
+description: 某个宿主、版本或分身环境下功能不兼容。
+title: "[适配] "
+labels: [compatibility]
+body:
+  - type: input
+    id: nova_version
+    attributes:
+      label: Nova 版本
+    validations:
+      required: true
+  - type: input
+    id: host_version
+    attributes:
+      label: 宿主名称、包名、版本号与 versionCode
+      description: 普通版和极速版分别反馈；注明是否为分身或工作资料环境。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Android、设备型号与 Xposed 框架版本
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: 受影响功能、提示与复现步骤
+      description: 写清功能名称及实际表现；若有可用的旧宿主版本也请注明。
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: 脱敏适配报告或截图（可选）
+      description: 不上传宿主 APK、完整聊天记录、数据库、凭据或备份包。

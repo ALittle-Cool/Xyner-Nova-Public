@@ -1,0 +1,24 @@
+name: 功能建议
+description: 描述需要解决的使用问题与期望效果。
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: input
+    id: host
+    attributes:
+      label: 涉及的宿主或模块功能
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景与目前遇到的问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 期望效果
+      description: 用具体操作或前后对比描述；请先确认已有设置或话题中没有相同方案。
+    validations:
+      required: true

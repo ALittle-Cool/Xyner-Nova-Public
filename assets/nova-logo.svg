@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="Xyner Nova logo">
+  <rect width="108" height="108" rx="24" fill="#F2F2F7"/>
+  <g transform="translate(15.12 15.12) scale(.72)">
+    <path d="M74 35C63 27 45 28 35 39C25 50 27 69 39 78C50 87 68 84 77 73C82 67 84 60 83 54" fill="none" stroke="#1C1C1E" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="83" cy="54" r="8" fill="#34C759"/>
+  </g>
+</svg>

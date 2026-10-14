@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问答与经验交流
+    url: https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions
+    about: 安装、设置和日常使用问题请优先到 Discussions 提问。
+  - name: 版本下载与更新说明
+    url: https://github.com/ALittle-Cool/Xyner-Nova-Public/releases
+    about: 查看发布版本、更新内容与 APK 附件。
+  - name: 私密安全报告
+    url: https://github.com/ALittle-Cool/Xyner-Nova-Public/security/advisories/new
+    about: 账号、隐私或授权漏洞请使用私密报告。
