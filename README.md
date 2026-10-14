@@ -75,7 +75,6 @@ e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
 | 西瓜视频 | `com.ss.android.article.video` |
 | Soul | `cn.soulapp.android` |
 | TikTok | `com.zhiliaoapp.musically` |
-| Xyner Tools | `cn.xyner.tools` |
 
 ## 安装与使用
 
