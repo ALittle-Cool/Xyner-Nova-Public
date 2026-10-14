@@ -21,7 +21,7 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 | --- | --- |
 | 当前发行 | **0.1.23（24） · 内测** |
 | 发布页 | [Xyner Nova 0.1.23](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.23) |
-| APK 下载 | [Xyner Nova-0.1.23.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.23/Xyner%20Nova-0.1.23.apk) |
+| APK 下载 | [Xyner-Nova-0.1.23.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.23/Xyner-Nova-0.1.23.apk) |
 | 文件大小 | 19,062,269 字节（约 18.18 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
@@ -102,7 +102,8 @@ e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
 - **故障反馈**：[提交 Bug](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=bug_report.yml)，提供版本、复现步骤与实际表现。
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
-- **使用问答与经验分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
+- **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.23 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/1)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
