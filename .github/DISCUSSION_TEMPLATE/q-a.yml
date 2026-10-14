@@ -1,0 +1,22 @@
+title: "[使用问答] "
+body:
+  - type: markdown
+    attributes:
+      value: 欢迎提问。先查阅 README 与使用帮助；截图、报告请脱敏，功能故障建议通过 Issues 反馈。
+  - type: input
+    id: environment
+    attributes:
+      label: Nova、宿主、Android 与框架版本
+      description: 与问题无关的项目可写不涉及。
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 想了解的问题或期望完成的操作
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: 已尝试的步骤与结果

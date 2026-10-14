@@ -1,0 +1,9 @@
+title: "[分享] "
+body:
+  - type: textarea
+    id: showcase
+    attributes:
+      label: 设置效果与使用经验
+      description: 可附脱敏截图和设置步骤；共享配置请使用 Nova 内的共享社区。
+    validations:
+      required: true

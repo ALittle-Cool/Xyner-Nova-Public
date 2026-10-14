@@ -1,0 +1,11 @@
+title: "[交流] "
+body:
+  - type: markdown
+    attributes:
+      value: 欢迎分享设置经验和使用心得。请先移除截图、配置和文字中的私人信息。
+  - type: textarea
+    id: topic
+    attributes:
+      label: 想交流或分享的内容
+    validations:
+      required: true

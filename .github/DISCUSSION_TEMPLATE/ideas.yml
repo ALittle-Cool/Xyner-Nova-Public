@@ -1,0 +1,15 @@
+title: "[想法] "
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: 涉及的宿主或功能
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想法、使用场景与期望效果
+      description: 欢迎先交流方案，明确的功能需求也可以提交功能建议 Issue。
+    validations:
+      required: true
