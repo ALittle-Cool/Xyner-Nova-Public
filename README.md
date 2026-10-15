@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.23（24） · 内测** |
-| 发布页 | [Xyner Nova 0.1.23](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.23) |
-| APK 下载 | [Xyner-Nova-0.1.23.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.23/Xyner-Nova-0.1.23.apk) |
-| 文件大小 | 19,062,269 字节（约 18.18 MiB） |
+| 当前发行 | **0.1.24（25） · 内测** |
+| 发布页 | [Xyner Nova 0.1.24](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.24) |
+| APK 下载 | [Xyner-Nova-0.1.24.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.24/Xyner-Nova-0.1.24.apk) |
+| 文件大小 | 19,613,089 字节（约 18.70 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,15 +32,16 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
+575a4119410128686646d33b67795810c975e1cf0046a10472dff82c138dca78
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.23/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.24/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
 | 场景 | 功能举例 |
 | --- | --- |
+| 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
 | 微信外观与交互 | 主页顶栏、头像形状、输入区外观、部分页面入口隐藏；以设置页展示的项目为准 |
 | 抖音与抖音极速版 | 顶部 Tab 隐藏与排序、分享提示管理、快捷悬浮条等；两个应用分别适配 |
 | 红果短剧 | 播放页面控件精简、播放手势、暂停控制与自动最高画质选项 |
@@ -56,6 +57,7 @@ e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
 | 应用 | 包名 |
 | --- | --- |
 | 微信 | `com.tencent.mm` |
+| 陌陌 | `com.immomo.momo` |
 | 抖音 | `com.ss.android.ugc.aweme` |
 | 抖音极速版 | `com.ss.android.ugc.aweme.lite` |
 | 红果短剧 | `com.phoenix.read` |
@@ -86,12 +88,20 @@ e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
 
 ## 最新更新
 
-0.1.23：
+0.1.24：
 
-- [修复] 抖音自定义顶部 Tab 排序后，选定的 Tab 无法隐藏的问题。
-- [修复] 抖音“分享给好友”提示隐藏失效的问题。
-- [修复] “选择隐藏的 Tab”列表较长时，底部“完成”按钮不可见的问题。
-- [优化] 宿主授权恢复与重新登录提示，按当前 App 显示操作指引。
+- [适配] 新增陌陌支持，按需开启各项功能。
+- [新增] 陌陌防撤回、聊天流撤回提示、精确消息时间，以及语音、头像、动态视频保存。
+- [新增] 陌陌阻止发送已读回执、好友和群组群发、关键词自动回复；支持文字、图片、视频和语音，每条关键词规则可单独设置冷却时间。
+- [新增] 陌陌定时发送支持单次、每天、周一至周五、周末、自选星期、倒计时与固定间隔循环。目标选择支持头像、备注、群聊及批量选择。
+- [新增] 陌陌虚拟定位、地图选点及账号独立定位；支持去广告、隐藏底栏与动态中的直播入口。
+- [新增] 陌陌自定义聊天气泡颜色、圆角与图片，可分别调整上下留白及相邻消息间距；支持底栏文字、图标大小和颜色设置。
+- [新增] 陌陌主动 AI 回复建议、聊天总结、翻译与润色，先预览再生成，结果不会自动发送。
+- [新增] 首页问题反馈入口，便于提交使用问题。
+- [修复] 陌陌私人云备份恢复位置、功能开关及自动化规则；恢复的定时任务保持暂停。
+- [优化] 授权无法发起时提供“打开 Nova”和“原方式授权”入口，改善模块不可见时的提示体验。
+
+使用说明：更新后请在框架中勾选陌陌作用域，并彻底结束、重新打开需要使用的宿主。AI 需自行配置可用服务；语音转文字、聊天图片高清加载及视频倍速暂为试验功能。定时发送需保持陌陌进程运行；周一至周五不判断法定节假日调休。
 
 完整版本说明与下载文件见 [全部 Releases](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases)。
 
@@ -101,7 +111,7 @@ e67c17694ee6ea516f6a3785e2fe296e2acbe4deb453fc8fa652390e655ac6e4
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.23 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/1)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.24 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/4)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
