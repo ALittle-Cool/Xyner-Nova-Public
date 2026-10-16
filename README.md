@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.26（27） · 内测** |
-| 发布页 | [Xyner Nova 0.1.26](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.26) |
-| APK 下载 | [Xyner-Nova-0.1.26.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.26/Xyner-Nova-0.1.26.apk) |
-| 文件大小 | 19,883,513 字节（约 18.96 MiB） |
+| 当前发行 | **0.1.27（28） · 内测** |
+| 发布页 | [Xyner Nova 0.1.27](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.27) |
+| APK 下载 | [Xyner-Nova-0.1.27.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.27/Xyner-Nova-0.1.27.apk) |
+| 文件大小 | 19,885,825 字节（约 18.96 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,18 +32,18 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-a81407e435af68af5ac5d26b26b95bd37435e6c87abbdcfbe985bbf78e4df84b
+73ebf7e0c2e1dee9ce4ef8653f529e92e53e96a2ea37bd021d3d252f520ef774
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.26/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.27/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
 | 场景 | 功能举例 |
 | --- | --- |
 | 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
-| 微信外观与交互 | 主页顶栏与浮动底栏、头像形状、输入区外观、密友隐藏及部分页面入口隐藏；以设置页展示的项目为准 |
-| 抖音与抖音极速版 | 顶部 Tab 隐藏与排序、分享提示管理、快捷悬浮条等；抖音支持自动与手势倍速、私聊替换语音，两个应用分别适配 |
+| 微信 | 主页顶栏与浮动底栏、头像形状、输入区外观、密友隐藏、朋友圈关键词过滤及部分页面入口隐藏；以设置页展示的项目为准 |
+| 抖音与抖音极速版 | 顶部 Tab 隐藏与排序、分享提示管理、快捷悬浮条、自动与手势倍速、私聊替换语音等，两个应用分别适配 |
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
 | 红果短剧 | 播放页面控件精简、播放手势、暂停控制与自动最高画质选项 |
 | 快手与快手极速版 | 无水印图片／视频保存、解除普通视频下载限制、首页／发现与精选推荐筛选 |
@@ -91,17 +91,13 @@ a81407e435af68af5ac5d26b26b95bd37435e6c87abbdcfbe985bbf78e4df84b
 
 ## 最新更新
 
-0.1.26：
+0.1.27：
 
-- [修复] 微信浮动底栏在返回前台、锁屏解锁后偶发消失的问题，聊天页继续保持正确隐藏。
-- [修复] 微信密友在分享名片的联系人列表及搜索中仍可见的问题，沿用“隐藏通讯录”设置。
-- [修复] 抖音手势倍速状态随当前视频同步，自动进入 3 倍速后可直接切回 1 倍，再次切回 3 倍，切换视频后也能正确判断。
-- [修复] 抖音手动滑动和自动翻页后自动倍速生效不及时的问题。
-- [修复] 抖音替换私聊语音在 iOS 接收端无法播放的问题，改善 MP3、OGG 等所选音频的发送兼容性。
-- [修复] 百度贴吧自动签到在刷新、翻页或页面重建时重复触发的问题，保留新关注补签及失败后的重试。
-- [优化] 抖音倍速操作只显示一条紧凑的当前倍速提示，去掉视频文案和重复提示，连续切换不再堆积。
+- [新增] 微信朋友圈关键词过滤：正文包含任意已配置关键词时隐藏整条动态；支持独立开关、多关键词编辑及私人云备份恢复，更改后刷新朋友圈即可生效。
+- [修复] 抖音及抖音极速版选择 1.5 倍速却按 3 倍速播放的问题，自动倍速与手势切换均使用正确倍率。
+- [修复] 部分宿主中更新提醒弹窗的版本、渠道和安装包大小未正确显示的问题。
 
-使用说明：本版为内测版。更新后请彻底结束并重开需要使用的宿主；微信密友在名片选择页隐藏需要开启“隐藏通讯录”，且密友当前处于隐藏状态。百度贴吧 22.12.1.0 的实际使用效果仍需在对应版本复测。
+使用说明：本版为内测版。更新后请彻底结束并重开需要使用的宿主。朋友圈关键词过滤默认关闭，试用及以上可用；仅匹配动态正文，不处理图片中的文字和评论。
 
 完整版本说明与下载文件见 [全部 Releases](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases)。
 
@@ -111,7 +107,7 @@ a81407e435af68af5ac5d26b26b95bd37435e6c87abbdcfbe985bbf78e4df84b
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.26 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/16)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.27 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/17)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
