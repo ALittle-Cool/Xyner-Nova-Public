@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.27（28） · 内测** |
-| 发布页 | [Xyner Nova 0.1.27](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.27) |
-| APK 下载 | [Xyner-Nova-0.1.27.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.27/Xyner-Nova-0.1.27.apk) |
-| 文件大小 | 19,885,825 字节（约 18.96 MiB） |
+| 当前发行 | **0.1.28（29） · 内测** |
+| 发布页 | [Xyner Nova 0.1.28](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.28) |
+| APK 下载 | [Xyner-Nova-0.1.28.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.28/Xyner-Nova-0.1.28.apk) |
+| 文件大小 | 19,908,577 字节（约 18.99 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-73ebf7e0c2e1dee9ce4ef8653f529e92e53e96a2ea37bd021d3d252f520ef774
+fbbfbf3cedea384184a680b445d6963e6224a3b6e5cd27f59de9e9fca02f5aff
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.27/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.28/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -47,7 +47,7 @@ SHA-256：
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
 | 红果短剧 | 播放页面控件精简、播放手势、暂停控制与自动最高画质选项 |
 | 快手与快手极速版 | 无水印图片／视频保存、解除普通视频下载限制、首页／发现与精选推荐筛选 |
-| Nova 更新 | 新版提醒、手动检查、跨宿主提醒同步、后台下载与断点续传 |
+| Nova 更新 | 新版提醒、手动检查、跨宿主提醒同步、后台下载与断点续传、另存安装包 |
 | 云备份 | 创建和管理宿主设置、业务记录及关联资源备份，支持合并或覆盖恢复；需要云备份资格 |
 | 共享社区 | 发布、搜索、预览、导入和撤回可共享的配置、规则及任务模板 |
 
@@ -91,13 +91,14 @@ SHA-256：
 
 ## 最新更新
 
-0.1.27：
+0.1.28：
 
-- [新增] 微信朋友圈关键词过滤：正文包含任意已配置关键词时隐藏整条动态；支持独立开关、多关键词编辑及私人云备份恢复，更改后刷新朋友圈即可生效。
-- [修复] 抖音及抖音极速版选择 1.5 倍速却按 3 倍速播放的问题，自动倍速与手势切换均使用正确倍率。
-- [修复] 部分宿主中更新提醒弹窗的版本、渠道和安装包大小未正确显示的问题。
+- [优化] 首页“问题反馈”和“检查更新”改为左右并排的紧凑入口，缩短说明，减少纵向占用。
+- [修复] 更新安装时重复点击可能反复提交、安装状态异常切换的问题。
+- [优化] 更新安装失败、取消或被系统阻止时显示明确提示，安装确认在 Nova 前台继续。
+- [新增] 更新下载窗口增加“另存安装包”，可选择保存位置后手动安装。
 
-使用说明：本版为内测版。更新后请彻底结束并重开需要使用的宿主。朋友圈关键词过滤默认关闭，试用及以上可用；仅匹配动态正文，不处理图片中的文字和评论。
+使用说明：本版为内测版。更新后请彻底结束并重开需要使用的宿主。若系统没有弹出安装确认，可使用“另存安装包”手动安装；个别机型的安装兼容性仍待确认。
 
 完整版本说明与下载文件见 [全部 Releases](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases)。
 
@@ -107,7 +108,7 @@ SHA-256：
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.27 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/17)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.28 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/18)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
