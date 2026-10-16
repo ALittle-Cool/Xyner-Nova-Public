@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.29（30） · 内测** |
-| 发布页 | [Xyner Nova 0.1.29](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.29) |
-| APK 下载 | [Xyner-Nova-0.1.29.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.29/Xyner-Nova-0.1.29.apk) |
-| 文件大小 | 20,060,483 字节（约 19.13 MiB） |
+| 当前发行 | **0.1.30（31） · 内测** |
+| 发布页 | [Xyner Nova 0.1.30](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.30) |
+| APK 下载 | [Xyner-Nova-0.1.30.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.30/Xyner-Nova-0.1.30.apk) |
+| 文件大小 | 20,167,639 字节（约 19.23 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-b37cc9101cec828daf472921291c5bc5ec9492067febe21858c7e4e87feb5e71
+1a2c8007e980e1e04b33e6f3bf6c0641cb0ce0fc93fc7d66343af880bff84ea3
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.29/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.30/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -44,7 +44,7 @@ b37cc9101cec828daf472921291c5bc5ec9492067febe21858c7e4e87feb5e71
 | 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
 | 微信 | 主页顶栏与浮动底栏、头像形状、输入区外观、密友隐藏、朋友圈关键词过滤及部分页面入口隐藏；以设置页展示的项目为准 |
 | 抖音与抖音极速版 | 顶部 Tab 隐藏与排序、分享提示管理、快捷悬浮条、自动与手势倍速、私聊替换语音等，两个应用分别适配 |
-| TikTok | 地区与匹配运营商设定、视频／图集无水印保存、解除可播放作品下载限制、自动倍速与翻页、推荐内容筛选 |
+| TikTok | 地区与匹配运营商、无水印保存与下载限制解除、自动倍速与翻页、内容筛选、双击与长按控制、沉浸式全屏、顶部频道及拍摄入口隐藏、原生预留间距移除、本人主页本地计数；广告／升级／插入拦截选项仍待实际样本确认 |
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
 | 红果短剧 | 播放页面控件精简、播放手势、暂停控制与自动最高画质选项 |
 | 快手与快手极速版 | 无水印图片／视频保存、解除普通视频下载限制、首页／发现与精选推荐筛选 |
@@ -92,15 +92,17 @@ b37cc9101cec828daf472921291c5bc5ec9492067febe21858c7e4e87feb5e71
 
 ## 最新更新
 
-0.1.29：
+0.1.30：
 
-- [新增] TikTok 地区与电话卡设定，默认日本，选择国家后自动匹配对应运营商。
-- [新增] TikTok 原生视频、图集无水印保存，并可解除已能播放作品的下载限制。
-- [新增] TikTok 自动倍速与自动翻页，支持 0.75、1、1.25、1.5、2、3 倍速，可在打开评论时暂停翻页。
-- [新增] TikTok 推荐内容筛选，支持广告、直播、游戏、图集、长视频，以及关键词、时长和最低点赞数条件。
-- [适配] TikTok 新增设置纳入云备份及可共享配置，地区与运营商选择一并保留。
+- [新增] TikTok 可禁用视频双击点赞、拦截原生长按临时倍速，独立点赞按钮和正常播放不受影响。
+- [新增] TikTok 可隐藏主页拍摄“+”入口、启用主页沉浸式全屏；关闭功能或宿主总开关后恢复原样。
+- [新增] TikTok 可选择隐藏顶部频道，保留频道仍可正常切换。
+- [新增] TikTok 可移除视频上下原生预留间距，保持完整画面，视频比例产生的黑边仍保留。
+- [新增] TikTok 本人主页可分别自定义关注、粉丝和获赞数量，仅改变本机显示，不改变真实数据或他人主页。
+- [适配] TikTok 增加启动广告、升级提示和作品流中途插入的拦截选项；三项仍待实际触发样本确认效果。
+- [适配] 本次新增的 TikTok 开关、隐藏频道及主页计数配置纳入私人云备份与可共享配置。
 
-使用说明：本版为内测版，TikTok 适配版本为 47.4.3。新增功能默认关闭，请在 Nova 中按需开启；地区功能开启后默认使用日本设置。更新后请彻底结束并重开需要使用的宿主。
+使用说明：本版为内测版，TikTok 适配版本为 47.4.3。新增功能默认关闭，请在 Nova 中按需开启。更新后请彻底结束并重开需要使用的宿主。
 
 完整版本说明与下载文件见 [全部 Releases](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases)。
 
@@ -110,7 +112,7 @@ b37cc9101cec828daf472921291c5bc5ec9492067febe21858c7e4e87feb5e71
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.29 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/20)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.30 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/24)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
