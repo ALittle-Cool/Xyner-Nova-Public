@@ -3,6 +3,9 @@ description: 描述需要解决的使用问题与期望效果。
 title: "[建议] "
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
   - type: input
     id: host
     attributes:

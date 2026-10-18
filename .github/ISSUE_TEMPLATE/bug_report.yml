@@ -5,6 +5,9 @@ labels: [bug]
 body:
   - type: markdown
     attributes:
+      value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
+  - type: markdown
+    attributes:
       value: 请先搜索已有问题，截图或报告请脱敏；不要提交密码、令牌、聊天记录或备份包。
   - type: input
     id: nova_version

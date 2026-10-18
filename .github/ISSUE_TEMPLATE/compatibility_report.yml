@@ -3,6 +3,9 @@ description: 某个宿主、版本或分身环境下功能不兼容。
 title: "[适配] "
 labels: [compatibility]
 body:
+  - type: markdown
+    attributes:
+      value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
   - type: input
     id: nova_version
     attributes:
