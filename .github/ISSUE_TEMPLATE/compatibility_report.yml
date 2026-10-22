@@ -1,8 +1,11 @@
 name: 宿主适配反馈
-description: 某个宿主、版本或分身环境下功能不兼容。
+description: 某个宿主、版本或分身环境下功能不兼容；必须提供 LSPosed 日志，未提供不予处理。
 title: "[适配] "
 labels: [compatibility]
 body:
+  - type: markdown
+    attributes:
+      value: "**反馈必须提供 LSPosed 日志，未提供不予处理。截图、视频和适配报告不能代替 LSPosed 日志。**"
   - type: markdown
     attributes:
       value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
@@ -30,6 +33,14 @@ body:
     attributes:
       label: 受影响功能、提示与复现步骤
       description: 写清功能名称及实际表现；若有可用的旧宿主版本也请注明。
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed_logs
+    attributes:
+      label: LSPosed 日志（必填，未提供不予处理）
+      description: 复现问题后，从 LSPosed 管理器的日志页面导出日志，上传日志文件或提供可访问的下载链接；保留相关宿主进程和问题发生时段，并先移除私人信息。
+      placeholder: 将导出的 LSPosed 日志文件拖到这里，或填写可访问的日志下载链接。填写“无”“稍后补充”或仅提供截图、视频均视为未提供日志，不予处理。
     validations:
       required: true
   - type: textarea

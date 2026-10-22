@@ -2,7 +2,7 @@ title: "[交流] "
 body:
   - type: markdown
     attributes:
-      value: 欢迎分享设置经验和使用心得。请先移除截图、配置和文字中的私人信息。
+      value: "欢迎分享设置经验和使用心得。请先移除截图、配置和文字中的私人信息。**如需反馈问题，必须通过 Issues 或使用问答表单提供 LSPosed 日志；未提供不予处理，截图和视频不能代替日志。**"
   - type: textarea
     id: topic
     attributes:

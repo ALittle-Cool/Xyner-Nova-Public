@@ -2,7 +2,7 @@ title: "[使用问答] "
 body:
   - type: markdown
     attributes:
-      value: 欢迎提问。先查阅 README 与使用帮助；截图、报告请脱敏，功能故障建议通过 Issues 反馈。
+      value: "欢迎提问。先查阅 README 与使用帮助；功能故障建议通过 Issues 反馈。**使用问答同样必须提供 LSPosed 日志，未提供不予处理；截图、视频和适配报告不能代替日志。**"
   - type: input
     id: environment
     attributes:
@@ -20,3 +20,11 @@ body:
     id: attempted
     attributes:
       label: 已尝试的步骤与结果
+  - type: textarea
+    id: lsposed_logs
+    attributes:
+      label: LSPosed 日志（必填，未提供不予处理）
+      description: 从 LSPosed 管理器的日志页面导出日志，上传日志文件或提供可访问的下载链接；故障问题先复现再导出，日志请先脱敏。
+      placeholder: 将导出的 LSPosed 日志文件拖到这里，或填写可访问的日志下载链接。填写“无”“稍后补充”或仅提供截图、视频均视为未提供日志，不予处理。
+    validations:
+      required: true

@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: 使用问答与经验交流
     url: https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions
-    about: 安装、设置和日常使用问题请优先到 Discussions 提问。
+    about: 安装、设置和日常使用问题请优先到 Discussions 提问；反馈必须提供 LSPosed 日志，未提供不予处理。
   - name: 版本下载与更新说明
     url: https://github.com/ALittle-Cool/Xyner-Nova-Public/releases
     about: 查看发布版本、更新内容与 APK 附件。

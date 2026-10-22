@@ -109,6 +109,8 @@ SHA-256：
 
 ## 反馈与交流
 
+**所有反馈（包括功能建议与使用问答）必须提供 LSPosed 日志，未提供不予处理。** 请从 LSPosed 管理器的日志页面导出日志，上传日志文件或提供可访问的下载链接；故障反馈应先复现问题再导出。截图、视频和适配报告不能代替 LSPosed 日志。
+
 - **故障反馈**：[提交 Bug](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=bug_report.yml)，提供版本、复现步骤与实际表现。
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。

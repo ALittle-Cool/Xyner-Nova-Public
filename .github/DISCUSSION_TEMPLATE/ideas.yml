@@ -1,9 +1,20 @@
 title: "[想法] "
 body:
+  - type: markdown
+    attributes:
+      value: "**反馈必须提供 LSPosed 日志，功能想法同样适用；未提供不予处理。截图、视频和适配报告不能代替日志。**"
   - type: input
     id: feature
     attributes:
       label: 涉及的宿主或功能
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed_logs
+    attributes:
+      label: LSPosed 日志（必填，未提供不予处理）
+      description: 从 LSPosed 管理器的日志页面导出当前使用环境的日志，上传日志文件或提供可访问的下载链接，并先移除私人信息。
+      placeholder: 将导出的 LSPosed 日志文件拖到这里，或填写可访问的日志下载链接。填写“无”“稍后补充”或仅提供截图、视频均视为未提供日志，不予处理。
     validations:
       required: true
   - type: textarea

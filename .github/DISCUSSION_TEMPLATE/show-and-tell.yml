@@ -1,5 +1,8 @@
 title: "[分享] "
 body:
+  - type: markdown
+    attributes:
+      value: "此处用于分享使用经验。**如需反馈问题，必须通过 Issues 或使用问答表单提供 LSPosed 日志；未提供不予处理，截图和视频不能代替日志。**"
   - type: textarea
     id: showcase
     attributes:

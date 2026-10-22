@@ -1,8 +1,11 @@
 name: Bug 反馈
-description: 功能异常、崩溃或界面问题。
+description: 功能异常、崩溃或界面问题；必须提供 LSPosed 日志，未提供不予处理。
 title: "[Bug] "
 labels: [bug]
 body:
+  - type: markdown
+    attributes:
+      value: "**反馈必须提供 LSPosed 日志，未提供不予处理。截图、视频和适配报告不能代替 LSPosed 日志。**"
   - type: markdown
     attributes:
       value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
@@ -41,6 +44,14 @@ body:
     id: expected_actual
     attributes:
       label: 预期效果与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed_logs
+    attributes:
+      label: LSPosed 日志（必填，未提供不予处理）
+      description: 复现问题后，从 LSPosed 管理器的日志页面导出日志，上传日志文件或提供可访问的下载链接；保留相关宿主进程和问题发生时段，并先移除私人信息。
+      placeholder: 将导出的 LSPosed 日志文件拖到这里，或填写可访问的日志下载链接。填写“无”“稍后补充”或仅提供截图、视频均视为未提供日志，不予处理。
     validations:
       required: true
   - type: textarea

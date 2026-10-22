@@ -1,8 +1,11 @@
 name: 功能建议
-description: 描述需要解决的使用问题与期望效果。
+description: 描述需要解决的使用问题与期望效果；必须提供 LSPosed 日志，未提供不予处理。
 title: "[建议] "
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: "**反馈必须提供 LSPosed 日志，功能建议同样适用；未提供不予处理。截图、视频和适配报告不能代替 LSPosed 日志。**"
   - type: markdown
     attributes:
       value: 视频尽量压缩到 10MB 以内；上传失败时可以提供网盘链接。
@@ -23,5 +26,13 @@ body:
     attributes:
       label: 期望效果
       description: 用具体操作或前后对比描述；请先确认已有设置或话题中没有相同方案。
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed_logs
+    attributes:
+      label: LSPosed 日志（必填，未提供不予处理）
+      description: 从 LSPosed 管理器的日志页面导出当前使用环境的日志，上传日志文件或提供可访问的下载链接，并先移除私人信息。
+      placeholder: 将导出的 LSPosed 日志文件拖到这里，或填写可访问的日志下载链接。填写“无”“稍后补充”或仅提供截图、视频均视为未提供日志，不予处理。
     validations:
       required: true
