@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.39（40） · 内测** |
-| 发布页 | [Xyner Nova 0.1.39](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.39) |
-| APK 下载 | [Xyner-Nova-0.1.39.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.39/Xyner-Nova-0.1.39.apk) |
-| 文件大小 | 22,431,103 字节（约 21.39 MiB） |
+| 当前发行 | **0.1.40（41） · 内测** |
+| 发布页 | [Xyner Nova 0.1.40](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.40) |
+| APK 下载 | [Xyner-Nova-0.1.40.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.40/Xyner-Nova-0.1.40.apk) |
+| 文件大小 | 22,586,939 字节（约 21.54 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-b6f380cd41620b1db3f5c39434f00abe13089e7c782d5b2e60ba7e65f2fd522d
+ac0345a124d5528d12a259e47133b39bfc2b2fc88aa3f2d1d286ed1ff4bb41d6
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.39/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.40/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -44,7 +44,7 @@ b6f380cd41620b1db3f5c39434f00abe13089e7c782d5b2e60ba7e65f2fd522d
 | 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
 | 微信 | 主页顶栏与浮动底栏、聊天快捷栏与悬浮输入区、头像外观、密友隐藏、朋友圈关键词及好友选择、自动任务管理；朋友圈防撤回、评论防撤回及本机缓存可见性提供独立开关，主页及好友个人页支持查看已缓存动态并继续翻页；真实删除／撤回效果待验证 |
 | 抖音与抖音极速版 | 顶部 Tab 与分享提示、Live 图集保存、快捷悬浮条、倍速与手势、私聊／评论语音替换及社区语音来源、收藏语音分享到素材社区，两个应用分别适配 |
-| Soul | 虚拟定位、动态筛选、聊天隐私与消息工具、原生文字复制限制解除、语音收藏与替换、文字转语音、气泡外观；新增聊天视频保存与 HTML 记录导出、AI 建议／翻译／总结及按对象自动回复、访客与资料工具；官方 6.38.0 适配，部分选项待更多样本确认 |
+| Soul | 虚拟定位、动态筛选、聊天隐私与消息工具、原生文字复制限制解除、语音收藏与替换、文字转语音、气泡外观；聊天视频保存与 HTML 记录导出、AI 建议／翻译／总结；关键词与 AI 自动回复支持任何对象及回复延迟，关键词可限制每对象累计次数；接收消息类型过滤与可搜索记录、截图录屏解限、闪照转普通图片、访客与资料工具；官方 6.38.0 适配，部分选项待更多样本确认 |
 | TikTok | 地区与匹配运营商、无水印保存与下载限制解除、自动倍速与翻页、内容筛选、双击与长按控制、沉浸式全屏、顶部频道及拍摄入口隐藏、原生预留间距移除、本人主页本地计数；广告／升级／插入拦截选项仍待实际样本确认 |
 | 小红书 | Live 照片去水印保存并保留动态播放 |
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
@@ -96,11 +96,17 @@ b6f380cd41620b1db3f5c39434f00abe13089e7c782d5b2e60ba7e65f2fd522d
 
 ## 最新更新
 
-0.1.39：
+0.1.40：
 
 内测更新。
 
-- [修复] 修复微信开启悬浮聊天输入框后，部分聊天页面打开时输入区空白或不显示的问题。
+- [新增] Soul 关键词与 AI 自动回复支持“任何对象”，可设置回复延迟；关键词规则可限制同一对象累计回复次数。
+- [新增] Soul 接收消息过滤支持自定义消息类型，新增可搜索的收到消息与拦截记录，点按记录可选择屏蔽或恢复该类型。
+- [优化] 重整 Soul 消息记录列表，清晰显示摘要、时间和处理结果，增加手动刷新。
+- [修复] 修复 Soul 普通私聊文字未被记录的问题，自动回复成功后同步当前会话已读状态。
+- [新增] Soul 增加解除截图与录屏限制选项。
+- [新增] Soul 新闪照可转为普通图片，并支持手动转换已收到的有效图片闪照。
+- [修复] 修复微信聊天快捷栏切换会话后，系统拍摄及音视频入口缺失或不对应的问题。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -114,7 +120,7 @@ b6f380cd41620b1db3f5c39434f00abe13089e7c782d5b2e60ba7e65f2fd522d
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.39 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/56)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.40 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/59)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
