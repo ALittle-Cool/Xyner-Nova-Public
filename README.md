@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.41（42） · 内测** |
-| 发布页 | [Xyner Nova 0.1.41](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.41) |
-| APK 下载 | [Xyner-Nova-0.1.41.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.41/Xyner-Nova-0.1.41.apk) |
-| 文件大小 | 26,385,316 字节（约 25.16 MiB） |
+| 当前发行 | **0.1.42（43） · 内测** |
+| 发布页 | [Xyner Nova 0.1.42](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.42) |
+| APK 下载 | [Xyner-Nova-0.1.42.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.42/Xyner-Nova-0.1.42.apk) |
+| 文件大小 | 26,385,992 字节（约 25.16 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-d75cdde55f9d2e116dab35679a1a2e52eb5afcb22817075360a60f45bf0a21b8
+fe08643515575f86e730a895231cda44cddb9158d21d31009bda80500b6a25e2
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.41/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.42/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -96,27 +96,11 @@ d75cdde55f9d2e116dab35679a1a2e52eb5afcb22817075360a60f45bf0a21b8
 
 ## 最新更新
 
-0.1.41：
+0.1.42：
 
-内测更新。
-
-- [新增] Soul、微信加入伴侣与人设，支持默认人设、每个聊天对象独立人设、本人代聊／虚拟角色、独立记忆与本地试聊。
-- [新增] 素材社区增加人设分类，聊天助手可直接选用社区角色；支持 JSON 角色卡导入，并保留已有配置。
-- [新增] Soul、微信支持私聊／群聊回复白名单和黑名单，黑名单优先；长按表情按钮可管理当前对象，自动回复默认关闭。
-- [新增] Soul 支持普通语音转文字后，结合聊天记录生成回复建议。
-- [新增] 微信加入普通语音转文字生成建议及选择联系人后原声转发，作为本次内测功能提供。
-- [优化] 人设选择增加明确确认与当前角色显示，调整试聊界面及操作反馈。
-- [优化] 改善非流式及不支持工具调用的模型兼容，过滤回复中的提纲和内部标记；不支持工具调用时仅使用已有记忆，不自动写入新记忆。
-- [修复] 无法读取的历史图片不再阻断文字回复建议，保留可读图片和文字；当前图片仍须读取成功。
-- [优化] Soul 消息记录补充头像、昵称和发送者信息，支持按类型隐藏与恢复；区分空正文和普通文字，避免误隐藏，并调整接收消息过滤入口。
-- [调整] 微信悬浮输入栏调整表情／工具面板的默认排列，保留已保存的个人设置。
-- [新增] 微信密友增加标题长按隐藏、连续点击恢复，以及快捷打开设置的操作。
-- [修复] 修复开启微信原生弹窗效果后，提取图片文字等操作可能卡住的问题。
-- [新增] 红果支持分别隐藏底部商城、赚钱／福利入口。
-- [新增] 抖音极速版增加赚钱入口和红包悬浮挂件的透明度设置。
-- [修复] 修复部分 Nova 菜单文字空白、后台久置后反复等待确认，以及有效授权下本地设置无法打开的问题。
-
-内测说明：微信语音转写、原声转发与自动回复实际发送，抖音极速版赚钱入口的实际布局，以及伴侣连续多轮聊天体验仍待进一步确认。社区人设的下载和选用沿用素材社区资格要求。
+- [优化] 优化鉴权系统。
+- [优化] 优化微信与 Soul 伴侣聊天的回复性能，降低生成回复时的 CPU 占用。
+- [调整] 本次为必须更新，请安装 0.1.42 后继续使用 Nova 功能；账号和设置保留。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -130,7 +114,7 @@ d75cdde55f9d2e116dab35679a1a2e52eb5afcb22817075360a60f45bf0a21b8
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.41 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/62)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.42 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/63)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
