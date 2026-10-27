@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.42（43） · 内测** |
-| 发布页 | [Xyner Nova 0.1.42](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.42) |
-| APK 下载 | [Xyner-Nova-0.1.42.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.42/Xyner-Nova-0.1.42.apk) |
-| 文件大小 | 26,385,992 字节（约 25.16 MiB） |
+| 当前发行 | **0.1.43（44） · 内测** |
+| 发布页 | [Xyner Nova 0.1.43](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.43) |
+| APK 下载 | [Xyner-Nova-0.1.43.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.43/Xyner-Nova-0.1.43.apk) |
+| 文件大小 | 26,566,932 字节（约 25.34 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-fe08643515575f86e730a895231cda44cddb9158d21d31009bda80500b6a25e2
+ffeb8f9c9a110a7166f7901196c78dddb89cf127332479e344694b3dbf4eb38f
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.42/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.43/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -44,7 +44,7 @@ fe08643515575f86e730a895231cda44cddb9158d21d31009bda80500b6a25e2
 | 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
 | 微信 | 主页顶栏与浮动底栏、聊天快捷栏与悬浮输入区、头像外观、密友隐藏与标题快捷操作、朋友圈关键词及好友选择、自动任务管理；伴侣人设、独立记忆、社区角色与回复白黑名单，支持本地试聊和手动建议，语音转写与原声转发内测；朋友圈防撤回、评论防撤回及本机缓存可见性提供独立开关，主页及好友个人页支持查看已缓存动态并继续翻页；真实删除／撤回效果待验证 |
 | 抖音与抖音极速版 | 顶部 Tab 与分享提示、Live 图集保存、快捷悬浮条、倍速与手势、私聊／评论语音替换及社区语音来源、收藏语音分享到素材社区；极速版支持赚钱入口及红包挂件透明度，赚钱入口布局待更多样本确认；两个应用分别适配 |
-| Soul | 虚拟定位、动态筛选、聊天隐私与消息工具、原生文字复制限制解除、语音收藏与替换、文字转语音、气泡外观；聊天视频保存与 HTML 记录导出、AI 建议／翻译／总结；伴侣人设、每对象独立记忆、社区角色、本地试聊及普通语音转写建议；关键词与 AI 自动回复支持对象选择、回复延迟及白黑名单，关键词可限制每对象累计次数；接收消息类型过滤、可搜索记录与类型隐藏恢复、截图录屏解限、闪照转普通图片、访客与资料工具；官方 6.38.0 适配，部分选项待更多样本确认 |
+| Soul | 虚拟定位、动态筛选、聊天隐私与消息工具、原生文字复制限制解除、语音收藏与替换、统一管理聊天／评论／瞬间的文字转语音、每日免费福利与当日状态、气泡外观；聊天视频保存与 HTML 记录导出、AI 建议／翻译／总结；伴侣人设、每对象独立记忆、社区角色、本地试聊及普通语音转写建议；关键词与 AI 自动回复支持对象选择、回复延迟及白黑名单，关键词可限制每对象累计次数；接收消息类型过滤、可搜索记录与类型隐藏恢复、截图录屏解限、闪照转普通图片、访客与资料工具；官方 6.38.0 适配，部分选项待更多样本确认 |
 | TikTok | 地区与匹配运营商、无水印保存与下载限制解除、自动倍速与翻页、内容筛选、双击与长按控制、沉浸式全屏、顶部频道及拍摄入口隐藏、原生预留间距移除、本人主页本地计数；广告／升级／插入拦截选项仍待实际样本确认 |
 | 小红书 | Live 照片去水印保存并保留动态播放 |
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
@@ -90,17 +90,22 @@ fe08643515575f86e730a895231cda44cddb9158d21d31009bda80500b6a25e2
 
 1. 从 [Releases](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases) 下载 APK，并安装或覆盖更新 Xyner Nova。
 2. 在已正确安装的 Xposed / LSPosed 环境中启用模块，为需要使用的宿主勾选作用域。设备是否需要 Root、框架如何安装，以所用框架的官方说明为准。
-3. 打开 Nova，按应用内提示登录并完成资格确认。符合条件的旧账号可从登录页提交内测申请并查询审核结果；申请条件以页面提示为准。
+3. 打开 Nova，按应用内提示登录并完成资格确认。自动授权遇到问题时，可复制宿主显示的六位配对码，在 Nova 首页“配对码授权”中输入或粘贴，再核对应用和设备。符合条件的旧账号可从登录页提交内测申请并查询审核结果；申请条件以页面提示为准。
 4. 彻底结束需要使用的宿主应用，再重新打开；进入该宿主的 Nova 设置入口，按需启用功能。
 5. 更新模块后如提示仍加载旧版本，确认框架启用了当前 Nova，再彻底结束并重开宿主。更多排查步骤见 [使用帮助](SUPPORT.md)。
 
 ## 最新更新
 
-0.1.42：
+0.1.43：
 
-- [优化] 优化鉴权系统。
-- [优化] 优化微信与 Soul 伴侣聊天的回复性能，降低生成回复时的 CPU 占用。
-- [调整] 本次为必须更新，请安装 0.1.42 后继续使用 Nova 功能；账号和设置保留。
+- [新增] 自动授权遇到问题时，可使用六位数字配对码；支持在宿主中复制，并在 Nova 中分格输入或粘贴。
+- [修复] 改善久置后的授权恢复；临时读取失败时保留有效授权，并显示具体失败原因。
+- [新增] Soul 每日免费福利，支持查看免费抽取及已达标任务奖励的领取状态。
+- [优化] Soul 当天已完成签到后不再重复弹出提示。
+- [调整] Soul 文字转语音集中到独立入口，聊天、评论和瞬间共用总开关、触发前缀与试听设置。
+- [优化] 微信与 Soul 的 AI 回复支持设置历史参考数量、查看本机处理记录；冷却期间等待后继续处理。
+
+配对授权处于内测阶段，部分免 Root 框架的兼容性仍待确认。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -114,7 +119,7 @@ fe08643515575f86e730a895231cda44cddb9158d21d31009bda80500b6a25e2
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.42 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/63)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.43 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/66)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
