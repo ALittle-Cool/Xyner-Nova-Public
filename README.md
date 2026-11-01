@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **0.1.48（49） · 内测** |
-| 发布页 | [Xyner Nova 0.1.48](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.48) |
-| APK 下载 | [Xyner-Nova-0.1.48.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.48/Xyner-Nova-0.1.48.apk) |
-| 文件大小 | 27,486,588 字节（约 26.21 MiB） |
+| 当前发行 | **0.1.49（50） · 内测** |
+| 发布页 | [Xyner Nova 0.1.49](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v0.1.49) |
+| APK 下载 | [Xyner-Nova-0.1.49.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.49/Xyner-Nova-0.1.49.apk) |
+| 文件大小 | 27,794,804 字节（约 26.51 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,17 +32,17 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-d574a99757b5a3d95fe909db736fdbfdfdba2bdadd14e2790ae93070bd2b803e
+54716ad962ddde075c389a14d1c9df8d21aa6ece89ec002b4caffc37cb4e24dc
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.48/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v0.1.49/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
 | 场景 | 功能举例 |
 | --- | --- |
 | 陌陌 | 防撤回与系统提示、媒体保存、定位、自动化发送、聊天气泡和底栏外观、主动 AI 工具 |
-| 微信 | 视频号媒体保存、步数倍增内测、主页顶栏与浮动底栏、聊天快捷栏与悬浮输入区、微信主题、字体与图标调整、头像外观、头像工作室及主页“＋”入口显示开关、密友隐藏、标题快捷操作与旧版名单同步、朋友圈关键词及好友选择、自动任务管理；伴侣人设、独立记忆、社区角色与回复白黑名单，支持本地试聊及逐条点选发送的手动建议，语音转写与原声转发内测；朋友圈防撤回、评论防撤回及本机缓存可见性提供独立开关，主页及好友个人页支持查看已缓存动态并继续翻页；真实删除／撤回效果待验证 |
+| 微信 | 视频号媒体保存、步数倍增内测、主页顶栏与浮动底栏、聊天快捷栏与悬浮输入区、微信主题作品创建及本地导入导出、字体与图标调整、头像外观、头像工作室及主页“＋”入口显示开关、密友隐藏、标题快捷操作与旧版名单同步、朋友圈关键词及好友选择、自动任务管理；伴侣人设、独立记忆、社区角色与回复白黑名单，支持本地试聊及逐条点选发送的手动建议，语音转写与原声转发内测；朋友圈防撤回、评论防撤回及本机缓存可见性提供独立开关，主页及好友个人页支持查看已缓存动态并继续翻页；真实删除／撤回效果待验证 |
 | 抖音与抖音极速版 | 顶部 Tab 与分享提示、Live 图集保存、快捷悬浮条、倍速与手势、私聊／评论语音替换及社区语音来源、收藏语音分享到素材社区；评论样式选择；极速版支持赚钱入口及红包挂件隐藏和透明度，长按加速后保持隐藏；续火花选人支持最近会话、关注与粉丝；两个应用分别适配 |
 | Soul | 虚拟定位与账号独立坐标、动态筛选、聊天列表“＋”菜单隐藏人员管理、清除未读快捷入口与最近互动栏隐藏、聊天隐私与消息工具、原生文字复制限制解除、语音收藏与替换、统一管理聊天／评论／瞬间的文字转语音、每日免费福利与当日状态、气泡外观；聊天视频保存与 HTML 记录导出、AI 建议逐条点选发送及单条编辑、翻译／总结；伴侣人设、每对象独立记忆、社区角色、本地试聊及普通语音转写建议；关键词与 AI 自动回复支持对象选择、回复延迟及白黑名单，关键词可限制每对象累计次数；接收消息类型过滤、可搜索记录与类型隐藏恢复、截图录屏解限、闪照转普通图片、主页访客与资料性别展示；官方 6.38.0 适配，部分选项待更多样本确认 |
 | TikTok | 地区与匹配运营商、无水印保存与下载限制解除、自动倍速与翻页、内容筛选、双击与长按控制、沉浸式全屏、顶部频道及拍摄入口隐藏、原生预留间距移除、本人主页本地计数；广告／升级／插入拦截选项仍待实际样本确认 |
@@ -96,15 +96,20 @@ d574a99757b5a3d95fe909db736fdbfdfdba2bdadd14e2790ae93070bd2b803e
 
 ## 最新更新
 
-0.1.48：
+0.1.49：
 
-- [新增] 微信密友标题快捷操作可选择多击或长按，并支持调整未读标题的加粗程度。
-- [优化] 微信主题覆盖好友资料、私聊信息和朋友圈，聊天快捷栏及会话分组栏跟随主题配色。
-- [优化] 微信和 Soul 的手动回复建议支持调整提交的最近消息条数。
-- [优化] 改善微信密友搜索命令的识别。
-- [修复] 修复微信会话分组切换时列表不更新或意外露出小程序页面的问题。
+- [新增] 微信主题支持创建、命名和保存作品，可预览后应用，并支持本地导入、导出与分享。
+- [新增] 微信密友显示时收到消息可设置振动提醒和振动强度。
+- [新增] 番茄小说本地会员设置支持自动翻页。
+- [优化] Nova 首页及宿主设置显示当前应用版本、适配状态和推荐版本。
+- [优化] 改进功能权限提示，显示更具体的原因。
+- [优化] 微信设置及常用下级页面、会话长按菜单跟随主题样式。
+- [修复] 修复微信会话分组选中背景恢复后消失的问题。
+- [修复] 修复朋友圈撤回标记重复显示的问题。
+- [修复] 修复微信运动步数功能的设置与部分设备适配问题。
+- [修复] 修复番茄畅听本地听书自然时长判断的问题。
 
-本版仍为内测。微信主题以官方微信 8.0.76 为适配基线，部分页面仍在完善；若已有消息条背景未及时更新，可重启微信。旧版云端非空密友名单同步仍需进一步验证。Soul 自动退出登录问题仍在观察。
+本版仍为内测。微信主题以官方微信 8.0.76 为适配基线；若已有消息条背景未及时更新，可重启微信。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -118,7 +123,7 @@ d574a99757b5a3d95fe909db736fdbfdfdba2bdadd14e2790ae93070bd2b803e
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.48 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/84)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[0.1.49 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/87)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
