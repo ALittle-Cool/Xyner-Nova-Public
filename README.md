@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **1.0.8（59） · 正式版** |
-| 发布页 | [Xyner Nova 1.0.8](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.8) |
-| APK 下载 | [Xyner-Nova-1.0.8.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.8/Xyner-Nova-1.0.8.apk) |
-| 文件大小 | 28,296,000 字节（约 26.99 MiB） |
+| 当前发行 | **1.0.9（60） · 正式版** |
+| 发布页 | [Xyner Nova 1.0.9](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.9) |
+| APK 下载 | [Xyner-Nova-1.0.9.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.9/Xyner-Nova-1.0.9.apk) |
+| 文件大小 | 28,279,620 字节（约 26.97 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-edd06320608077e78e96d340a9b93db41ba57ed0b3ecaadd88bcfabe1ac09d9a
+5bbd06b85c0bf6763d98a9ec8dcd0855721e077f1344aad6fb19f1652e6af307
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.8/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.9/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -98,10 +98,11 @@ edd06320608077e78e96d340a9b93db41ba57ed0b3ecaadd88bcfabe1ac09d9a
 
 ## 最新更新
 
-1.0.8：
+1.0.9：
 
-- [修复] 修复抖音、抖音极速版新版隐藏密友后会话仍然显示的问题，保留旧版兼容。
-- [修复] 修复已完成适配的宿主版本仍显示“未验证”的提示，更新推荐版本。
+- [修复] 修复部分宿主菜单中的标题、说明、选项和数量文字空白的问题。
+- [修复] 修复切换或降级宿主版本后误提示“功能暂不可用”的问题，保留已适配旧版本的正常使用。
+- [修复] 修复微信授权状态变化时界面刷新引起的闪退。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -115,7 +116,7 @@ edd06320608077e78e96d340a9b93db41ba57ed0b3ecaadd88bcfabe1ac09d9a
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.8 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/129)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.9 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/131)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
