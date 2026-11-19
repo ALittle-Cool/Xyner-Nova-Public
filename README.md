@@ -19,9 +19,9 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **1.0.7（58） · 正式版** |
-| 发布页 | [Xyner Nova 1.0.7](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.7) |
-| APK 下载 | [Xyner-Nova-1.0.7.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.7/Xyner-Nova-1.0.7.apk) |
+| 当前发行 | **1.0.8（59） · 正式版** |
+| 发布页 | [Xyner Nova 1.0.8](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.8) |
+| APK 下载 | [Xyner-Nova-1.0.8.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.8/Xyner-Nova-1.0.8.apk) |
 | 文件大小 | 28,296,000 字节（约 26.99 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-4ddba4b16bdf9c3bc91e9b7d77086b903c2280253cc40a8d461a4c71ae4188af
+edd06320608077e78e96d340a9b93db41ba57ed0b3ecaadd88bcfabe1ac09d9a
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.7/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.8/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -98,25 +98,10 @@ SHA-256：
 
 ## 最新更新
 
-1.0.7：
+1.0.8：
 
-- [新增] 抖音、抖音极速版支持显示作品发布地点、IP 属地和发布时间，可自定义字段、位置、字号、颜色、渐变、背景及换行；信息行实际占位，兼容原生组件隐藏。
-- [新增] 首页增加“开通会员”入口，直达 Nova 商城。
-- [新增] 账号页面增加靓号管理，支持查看、启用、隐藏及切换绑定对象。
-- [优化] 首页反馈、检查更新和会员入口改为紧凑图标按钮。
-- [优化] 推荐版本自动选择同包变体中最新的已验证版本。
-- [修复] 修复 Android 9–12 部分设备无法初始化登录服务的问题。
-- [修复] 修复授权续期后部分功能仍失效、错误提示无会员权限的问题。
-- [修复] 修复微信启动卡住及搜索命令引发闪退的问题。
-- [修复] 修复微信引用退格清除、会话分组与折叠的部分显示和切换问题。
-- [修复] 修复微信朋友圈“已撤回”标记重复叠加的问题。
-- [优化] 微信朋友圈自动化好友选择取消固定人数上限，支持大名单全选。
-- [修复] 修复微信新版多处主题显示与通话悬浮窗尺寸、背景和按钮布局问题。
-- [适配] 更新微信 8.0.80 的会话、群资料、朋友圈、公众号及视频号视频下载兼容。
-- [修复] 修复抖音视频分享列表未同步隐藏密友的问题。
-- [适配] 更新抖音、抖音极速版及 TikTok 新版的界面、播放与手势功能兼容。
-- [适配] 更新多邻国新版 Max 显示与答题功能，修复空答案无法提交的问题。
-- [适配] 更新红果、小红书、七猫、最右、皮皮搞笑、皮皮虾、番茄免费小说、番茄畅听、盐言故事及 ES 文件浏览器的新版兼容，保留原有版本适配。
+- [修复] 修复抖音、抖音极速版新版隐藏密友后会话仍然显示的问题，保留旧版兼容。
+- [修复] 修复已完成适配的宿主版本仍显示“未验证”的提示，更新推荐版本。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -130,7 +115,7 @@ SHA-256：
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.7 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/127)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.8 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/129)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
