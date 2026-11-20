@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **1.0.10（61） · 正式版** |
-| 发布页 | [Xyner Nova 1.0.10](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.10) |
-| APK 下载 | [Xyner-Nova-1.0.10.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.10/Xyner-Nova-1.0.10.apk) |
-| 文件大小 | 28,313,680 字节（约 27.00 MiB） |
+| 当前发行 | **1.0.11（62） · 正式版** |
+| 发布页 | [Xyner Nova 1.0.11](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.11) |
+| APK 下载 | [Xyner-Nova-1.0.11.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.11/Xyner-Nova-1.0.11.apk) |
+| 文件大小 | 28,316,736 字节（约 27.00 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-5aa0c2443c561aaa57cbbea109d78d1a9a596e9873e05d2cb2437b75490911fe
+eb746e560f9a881a7fff186ca3782ded1b1fd207ba44918dc819a9ac6cdbe3ae
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.10/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.11/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -50,11 +50,11 @@ SHA-256：
 | 百度贴吧 | 自动签到与新关注补签，支持账号和日期隔离 |
 | 红果短剧 | 右侧控件、上下控件与全屏按钮分别隐藏，底部商城及赚钱／福利入口分别隐藏，播放手势、暂停控制与自动最高画质选项 |
 | 快手与快手极速版 | 无水印图片／视频保存、解除普通视频下载限制、首页／发现与精选推荐筛选 |
-| 功能准备 | 宿主菜单实时进度、未就绪原因与处理方法、重新检查、离线就绪状态和重开指引 |
+| 功能准备 | 宿主菜单实时进度、未就绪原因与徽章、内容自适应详情、重新检查、离线就绪状态和重开指引；局部安装未完成不等于整个功能不可用 |
 | Nova 更新 | 新版提醒、手动检查、跨宿主提醒同步、后台下载与断点续传、另存安装包及小米手机安装兼容 |
 | 首页与 App 列表 | 紧凑反馈／更新／开通会员入口；优先显示已有缓存，后台更新列表并保留滚动位置，推荐同包变体中最新的已验证版本 |
 | 账号 | 登录与授权管理、靓号查看及绑定管理 |
-| 多邻国 | Max 显示与答题功能 |
+| 多邻国 | Max 显示与答题功能，支持故事课连续继续及电台听力判断题无视错题 |
 | 云备份 | 创建和管理宿主设置、业务记录及关联资源备份，支持合并或覆盖恢复；需要云备份资格 |
 | 共享社区 | 发布、搜索、预览、导入和撤回可共享的配置、规则及任务模板 |
 | 素材社区 | 图片／表情／语音／人设分类、搜索、预览、评论、点赞与收藏；支持宿主选用、收藏语音分享及 Soul／微信聊天助手直接选择角色，发布／下载／完整预览／试听需云备份资格 |
@@ -99,12 +99,13 @@ SHA-256：
 
 ## 最新更新
 
-1.0.10：
+1.0.11：
 
-- [新增] 宿主 Nova 菜单加入“功能准备”，可查看实时进度、未就绪功能和处理方法，并可重新检查。
-- [修复] 修复所需数据较晚就绪时，部分已开启功能需要反复重开宿主才能生效的问题。
-- [优化] 功能准备等待过久时轻提示，恢复就绪后告知；有效离线数据已可用时显示“已就绪（离线）”。
-- [调整] 数据和模块更新的重开提醒统一为轻提示与菜单入口，合并重复提醒，点击“结束应用”后再确认。
+- [修复] 修复多邻国新版故事课无法连续点击“继续”的问题。
+- [修复] 修复多邻国新版电台听力判断题选择错误答案时，“无视错题”未生效的问题。
+- [优化] 功能准备窗口自适应内容高度，未就绪项目使用醒目徽章，并说明部分项目未安装完成不等于整个功能无法使用。
+- [修复] 修复微信密友搜索命令、会话过滤与群资料菜单的兼容问题。
+- [修复] 修复微信密友显示后自动隐藏、聊天点击无响应及无法再次显示的问题。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -118,7 +119,7 @@ SHA-256：
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.10 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/132)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.11 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/135)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
