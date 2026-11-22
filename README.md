@@ -19,10 +19,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **1.0.12（63） · 正式版** |
-| 发布页 | [Xyner Nova 1.0.12](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.12) |
-| APK 下载 | [Xyner-Nova-1.0.12.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.12/Xyner-Nova-1.0.12.apk) |
-| 文件大小 | 28,334,304 字节（约 27.02 MiB） |
+| 当前发行 | **1.0.13（64） · 正式版** |
+| 发布页 | [Xyner Nova 1.0.13](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.13) |
+| APK 下载 | [Xyner-Nova-1.0.13.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.13/Xyner-Nova-1.0.13.apk) |
+| 文件大小 | 28,350,688 字节（约 27.04 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
 | 框架要求 | 兼容 Xposed 的运行环境；模块声明最低 Xposed API 93 |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-f69b96c0a168ae720b8aa1e901987316db964c175be4af460c3847b55205e685
+dfa82a476a93c722d87ccf2b2e22e038c2607b15563f20823569a05fa3c5a8f0
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.12/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.13/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -99,15 +99,11 @@ f69b96c0a168ae720b8aa1e901987316db964c175be4af460c3847b55205e685
 
 ## 最新更新
 
-1.0.12：
+1.0.13：
 
-- [优化] 优化宿主启动流程，减少功能准备状态的重复刷新。
-- [优化] 改善微信首页会话列表的滑动流畅度，减少主题图标刷新带来的卡顿。
-- [修复] 修复微信自定义折叠的摘要、未读红点更新不及时和折叠页主题未生效的问题。隐藏密友从摘要和未读统计中排除，从子分组返回时恢复上一级的滚动位置。
-- [修复] 修复微信密友重复初始化时显隐状态被重置的问题。
-- [调整] 补充微信朋友圈防撤回说明。已缓存的撤回动态保留在本机，好友相册仍显示微信的可见范围提示。
-- [新增] 抖音普通版新增隐藏密友来信震动和“消息”标题加粗提醒。可选择长按或多击标题打开密友菜单。
-- [修复] 修复小米、红米和 POCO 设备应用内更新时，安装包读取授权提前失效的问题。文件安装失败后可通过系统安装会话重试。
+- [优化] 减少切换宿主页面或返回时重复检查更新，保留手动检查和新版提醒。
+- [优化] 减少反复打开宿主内 Nova 菜单时加载版本适配信息的请求。
+- [优化] 优化微信运行稳定性，降低闪退风险。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -121,7 +117,7 @@ f69b96c0a168ae720b8aa1e901987316db964c175be4af460c3847b55205e685
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.12 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/141)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.13 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/142)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
