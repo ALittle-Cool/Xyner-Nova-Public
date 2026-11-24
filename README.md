@@ -19,9 +19,9 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 
 | 项目 | 信息 |
 | --- | --- |
-| 当前发行 | **1.0.15（66） · 正式版** |
-| 发布页 | [Xyner Nova 1.0.15](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.15) |
-| APK 下载 | [Xyner-Nova-1.0.15.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.15/Xyner-Nova-1.0.15.apk) |
+| 当前发行 | **1.0.16（67） · 正式版** |
+| 发布页 | [Xyner Nova 1.0.16](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/tag/v1.0.16) |
+| APK 下载 | [Xyner-Nova-1.0.16.apk](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.16/Xyner-Nova-1.0.16.apk) |
 | 文件大小 | 28,642,685 字节（约 27.32 MiB） |
 | 应用包名 | `cn.xyner.nova` |
 | 最低系统 | Android 9（API 28） |
@@ -32,10 +32,10 @@ Xyner Nova 通过 Xposed 框架为已接入的 Android 应用提供界面与交�
 SHA-256：
 
 ```text
-cebb2c20adfe5f5983f47667d2446655d88f082463cf015b4327e622ef7c80f0
+6d30e8a7636ad436bcf81dca238853ee32bfa9f2ac83e9f5fb192fddec881ea5
 ```
 
-可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.15/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
+可以使用发布附件中的 [SHA256SUMS.txt](https://github.com/ALittle-Cool/Xyner-Nova-Public/releases/download/v1.0.16/SHA256SUMS.txt) 核对 APK。请在 **Assets** 中下载 APK；GitHub 自动提供的 Source code 压缩包是本介绍仓库的文件。
 
 ## 主要功能
 
@@ -99,16 +99,9 @@ cebb2c20adfe5f5983f47667d2446655d88f082463cf015b4327e622ef7c80f0
 
 ## 最新更新
 
-1.0.15：
+1.0.16：
 
-- [新增] 微信朋友圈支持 JPEG 和 PNG 原图上传，从相册选图后直接进入发表确认页。
-- [新增] 微信支持关闭朋友圈视频自动播放，并新增通话中播放聊天视频的开关。
-- [新增] 微信好友资料页加入随主题配色的 wxid 徽章，点击即可复制。Nova 设置新增联系人列表、搜索和本地记录。
-- [优化] 微信朋友圈自动点赞支持默认全部好友、排除指定好友，以及关键词黑名单和白名单。
-- [新增] 微信密友支持独立的快捷显示密码，可在隐藏期间禁止打开收藏。抖音和抖音极速版支持密友菜单密码和快捷显示密码。
-- [修复] 修复微信撤回自己的消息时出现防撤回提示和额外未读的问题。
-- [新增] Nova 支持每日签到、连签和积分兑换。积分可兑换会员体验、折扣卡或注册邀请码，也可将卡券赠送给指定 Nova 账号。
-- [新增] Nova 环境详情支持隐藏桌面图标，隐藏后仍可通过 LSPosed 打开。
+- [修复] 修复微信好友资料页重复显示 wxid 徽章、占满页面的问题。
 
 素材社区规则：所有用户可浏览素材列表；发布、下载、完整预览和语音试听需要云备份权限。普通用户每份素材不超过 1MiB，默认每天可分享 10 份；无云备份权限用户可点赞、收藏，评论默认关闭，以当前规则为准。发布违法违规内容将直接封禁整个 Nova 账号。
 
@@ -122,7 +115,7 @@ cebb2c20adfe5f5983f47667d2446655d88f082463cf015b4327e622ef7c80f0
 - **版本兼容**：[提交宿主适配反馈](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=compatibility_report.yml)，注明宿主包名、版本和设备环境。
 - **功能建议**：[提交建议](https://github.com/ALittle-Cool/Xyner-Nova-Public/issues/new?template=feature_request.yml)，描述使用场景与期望效果。
 - **使用问答**：[Q&A](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/categories/q-a)；**设置经验与分享**：[Discussions](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions)。
-- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.15 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/164)。
+- **交流导航**：[欢迎交流与反馈指引](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/2)；**本版本交流**：[1.0.16 讨论](https://github.com/ALittle-Cool/Xyner-Nova-Public/discussions/167)。
 
 反馈前请搜索已有话题；截图和报告请先移除账号凭据、联系方式与聊天内容。查看 [反馈说明](SUPPORT.md) 和 [安全问题报告方式](SECURITY.md)。
 
